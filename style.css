@@ -43,6 +43,7 @@ main {
   background: hsla(178, 100%, 50%, 0.527);
   border-radius: .5rem;
   visibility: hidden;
+  cursor: pointer;
 }
 
 .bg-image > img {
@@ -51,18 +52,17 @@ main {
 
 .image:hover > .bg-image, .image:hover > .bg-image > img {
   visibility: visible;
-  cursor: pointer;
 }
 
 main > h1 {
   font-size: 18px;
   color: white;
+  cursor: pointer;
 }
 
 main > h1:hover,
 .profile > p > span:hover {
   color: hsl(178, 100%, 50%);
-  cursor: pointer;
 }
 
 .price {
@@ -120,6 +120,7 @@ main > p {
 
 .profile > p > span {
   color: white;
+  cursor: pointer;
 }
 
 footer {
