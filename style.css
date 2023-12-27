@@ -71,20 +71,20 @@ main > h1:hover,
   align-items: center;
 }
 
-.price > h2 {
-  color: hsl(178, 100%, 50%);
-  font-size: 14px;
+.price > div{
   display: flex;
   align-items: center;
   gap: 0.2rem;
 }
 
-.price > h3 {
+.eth {
+  font-size: 14px;
+  color: hsl(178, 100%, 50%);
+}
+
+.days {
   font-size: 14px;
   color: hsl(215, 51%, 70%);
-  display: flex;
-  align-items: center;
-  gap: 0.2rem;
 }
 
 .equilibrium {
